@@ -85,7 +85,7 @@ string[] MergeStringsOfArray(string[] array)
     return arrayRes;
 }
 Console.WriteLine();
-Console.Write("How mane strings you want to input: ");
+Console.Write("How many strings you want to input: ");
 int numberOfStrings2 = Convert.ToInt32(Console.ReadLine());
 string[] array1 = CreateStringArray2(numberOfStrings2);
 ShowArray2(array1);
